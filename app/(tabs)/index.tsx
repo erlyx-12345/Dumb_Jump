@@ -443,9 +443,15 @@ const styles = StyleSheet.create({
     fontWeight: '900',
   },
   secondText: {
-    color: '#7B93B3',
-    fontSize: 13,
-    marginTop: 4,
+    color: '#3c3e40',
+    fontSize: 11,
+    fontWeight: '900',
+    marginTop: 6,
+    letterSpacing: 1,
+    textTransform: 'uppercase',
+    textShadowColor: 'rgba(255, 255, 255, 0.6)',
+    textShadowOffset: { width: 0, height: 0 },
+    textShadowRadius: 1,
   },
   gameoverMenu: {
     backgroundColor: '#F9F4F4',
